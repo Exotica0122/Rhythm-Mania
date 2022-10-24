@@ -1,0 +1,102 @@
+﻿  circle.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\circle.h(7): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  circlemanager.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\circlemanager.h(7): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  cursor.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  endscreen.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  iniparser.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\iniparser.cpp(54): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\iniparser.cpp(59): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\iniparser.cpp(63): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+  mainscreen.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  osuparser.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\osuparser.cpp(82): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\osuparser.cpp(87): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\osuparser.cpp(91): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(439): note: see declaration of 'strtok'
+  scenecanondeasy.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scenecanondeasy.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  scenecanondhard.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scenecanondhard.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  scenecanondinsane.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scenecanondinsane.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  sceneinstructions.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  scenerhythmmaniatest.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scenerhythmmaniatest.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  score.cpp
+  slider.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  song.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\song.h(8): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  spinner.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  animatedsprite.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  ball.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  entity.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  game.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\game.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_impl_sdl.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\imgui\imgui_impl_sdl.cpp(67): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  inputsystem.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\inputsystem.h(7): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  logmanager.cpp
+  main.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\main.cpp(8): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  matrix4.cpp
+  particle.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  particleemitter.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  renderer.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  scene.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  sceneanimatedsprite.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  scenebouncingballgame.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  scenebouncingballs.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  scenecheckerboards.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  sceneparticlesystem.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  scenesplashscreen.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\scene.h(5): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  shader.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\shader.h(5): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  sprite.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  texture.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\texture.cpp(10): fatal error C1083: Cannot open include file: 'SDL_image.h': No such file or directory
+  texturemanager.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\texturemanager.cpp(12): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  vector2.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\renderer.h(14): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  vertexarray.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\vertexarray.cpp(9): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  xboxcontroller.cpp
+c:\users\anpet\desktop\peter's stuff\aut\comp710\gold - 20125059\source\gamename\inputsystem.h(7): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

@@ -1,0 +1,512 @@
+Revision: 531
+Author: ykx5915
+Date: Monday, September 19, 2022 4:50:18 PM
+Message:
+Added game mechanics
+----
+Added : /students/peter.an/gamename/source/gamename/circle.cpp
+Added : /students/peter.an/gamename/source/gamename/circle.h
+Added : /students/peter.an/gamename/source/gamename/cursor.cpp
+Added : /students/peter.an/gamename/source/gamename/cursor.h
+Modified : /students/peter.an/gamename/source/gamename/entity.cpp
+Modified : /students/peter.an/gamename/source/gamename/entity.h
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/game.h
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+Modified : /students/peter.an/gamename/source/gamename/inlinehelper.h
+Modified : /students/peter.an/gamename/source/gamename/particleemitter.cpp
+Modified : /students/peter.an/gamename/source/gamename/scene.cpp
+Modified : /students/peter.an/gamename/source/gamename/scene.h
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballgame.cpp
+Added : /students/peter.an/gamename/source/gamename/scenerhythmmaniatest.cpp
+Added : /students/peter.an/gamename/source/gamename/scenerhythmmaniatest.h
+Modified : /students/peter.an/gamename/source/gamename/scenesplashaut.h
+Added : /students/peter.an/gamename/source/gamename/slider.cpp
+Added : /students/peter.an/gamename/source/gamename/slider.h
+Added : /students/peter.an/gamename/source/gamename/spinner.cpp
+Added : /students/peter.an/gamename/source/gamename/spinner.h
+
+Revision: 457
+Author: ykx5915
+Date: Thursday, September 1, 2022 5:37:48 PM
+Message:
+Particle Emission Completed
+----
+Modified : /students/peter.an/gamename/source/gamename/particleemitter.cpp
+
+Revision: 453
+Author: ykx5915
+Date: Thursday, September 1, 2022 4:31:02 PM
+Message:
+Particle Emission Working
+----
+Modified : /students/peter.an/gamename/source/gamename/particle.cpp
+Modified : /students/peter.an/gamename/source/gamename/particleemitter.cpp
+Modified : /students/peter.an/gamename/source/gamename/particleemitter.h
+
+Revision: 414
+Author: ykx5915
+Date: Thursday, August 25, 2022 6:01:33 PM
+Message:
+Box2D Link working
+----
+Modified : /students/peter.an/gamename/source/gamename/entity.cpp
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+
+Revision: 413
+Author: ykx5915
+Date: Thursday, August 25, 2022 5:59:47 PM
+Message:
+Added Box2D
+----
+Added : /students/peter.an/gamename/lib/Box2D/lib/Debug
+Added : /students/peter.an/gamename/lib/Box2D/lib/Release
+Modified : /students/peter.an/gamename/source/gamename/entity.cpp
+
+Revision: 403
+Author: ykx5915
+Date: Wednesday, August 24, 2022 4:03:07 PM
+Message:
+Added Box2D
+----
+Added : /students/peter.an/gamename/lib/Box2D
+Added : /students/peter.an/gamename/lib/Box2D/include
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_api.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_block_allocator.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_body.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_broad_phase.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_chain_shape.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_circle_shape.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_collision.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_common.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_contact.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_contact_manager.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_distance.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_distance_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_draw.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_dynamic_tree.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_edge_shape.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_fixture.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_friction_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_gear_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_growable_stack.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_math.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_motor_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_mouse_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_polygon_shape.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_prismatic_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_pulley_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_revolute_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_rope.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_settings.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_shape.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_stack_allocator.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_time_of_impact.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_time_step.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_timer.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_types.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_weld_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_wheel_joint.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_world.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/b2_world_callbacks.h
+Added : /students/peter.an/gamename/lib/Box2D/include/box2d/box2d.h
+Added : /students/peter.an/gamename/lib/Box2D/lib
+
+Revision: 375
+Author: ykx5915
+Date: Thursday, August 18, 2022 5:11:41 PM
+Message:
+entity attempt 2
+----
+Modified : /students/peter.an/gamename/game/sprites/rocket.png
+Modified : /students/peter.an/gamename/source/gamename/entity.cpp
+Modified : /students/peter.an/gamename/source/gamename/entity.h
+Modified : /students/peter.an/gamename/source/gamename/inlinehelper.h
+
+Revision: 361
+Author: ykx5915
+Date: Wednesday, August 17, 2022 7:00:27 PM
+Message:
+entity attempt
+----
+Added : /students/peter.an/gamename/game/sprites/rocket.png
+Modified : /students/peter.an/gamename/source/gamename/entity.cpp
+Modified : /students/peter.an/gamename/source/gamename/entity.h
+
+Revision: 355
+Author: ykx5915
+Date: Wednesday, August 17, 2022 4:05:46 PM
+Message:
+render fixed for particles
+----
+Modified : /students/peter.an/gamename/source/gamename/entity.cpp
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/particle.cpp
+
+Revision: 351
+Author: ykx5915
+Date: Wednesday, August 17, 2022 3:18:41 PM
+Message:
+LoadSurfaceIntoTexture call in init
+----
+Modified : /students/peter.an/gamename/source/gamename/entity.cpp
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/particleemitter.cpp
+Modified : /students/peter.an/gamename/source/gamename/texture.cpp
+
+Revision: 350
+Author: ykx5915
+Date: Wednesday, August 17, 2022 2:01:41 PM
+Message:
+sceneparticlesystem added
+----
+Added : /students/peter.an/gamename/source/gamename/sceneparticlesystem.cpp
+Added : /students/peter.an/gamename/source/gamename/sceneparticlesystem.h
+
+Revision: 347
+Author: ykx5915
+Date: Wednesday, August 17, 2022 1:42:04 PM
+Message:
+particle emitter attempt 
+----
+Modified : /students/peter.an/gamename/source/gamename/entity.cpp
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+Modified : /students/peter.an/gamename/source/gamename/particle.cpp
+Modified : /students/peter.an/gamename/source/gamename/particleemitter.cpp
+Modified : /students/peter.an/gamename/source/gamename/sceneanimatedsprite.cpp
+Modified : /students/peter.an/gamename/source/gamename/sceneanimatedsprite.h
+
+Revision: 335
+Author: ykx5915
+Date: Tuesday, August 16, 2022 7:50:39 PM
+Message:
+Added particle, particleemitter and entity classes
+----
+Added : /students/peter.an/gamename/game/sprites/anim8strip.png
+Added : /students/peter.an/gamename/game/sprites/anim8x2sheet.png
+Added : /students/peter.an/gamename/game/sprites/explosion.png
+Added : /students/peter.an/gamename/source/gamename/entity.cpp
+Added : /students/peter.an/gamename/source/gamename/entity.h
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+Modified : /students/peter.an/gamename/source/gamename/inlinehelper.h
+Added : /students/peter.an/gamename/source/gamename/particle.cpp
+Added : /students/peter.an/gamename/source/gamename/particle.h
+Added : /students/peter.an/gamename/source/gamename/particleemitter.cpp
+Added : /students/peter.an/gamename/source/gamename/particleemitter.h
+Modified : /students/peter.an/gamename/source/gamename/sceneanimatedsprite.cpp
+Modified : /students/peter.an/gamename/source/gamename/sceneanimatedsprite.h
+
+Revision: 322
+Author: ykx5915
+Date: Sunday, August 14, 2022 2:01:48 PM
+Message:
+Added SDL2 TTF Files
+
+----
+Added : /students/peter.an/gamename/game/SDL2_ttf.dll
+Added : /students/peter.an/gamename/game/SailecMedium.ttf
+Added : /students/peter.an/gamename/game/libfreetype-6.dll
+Added : /students/peter.an/gamename/game/zlib1.dll
+
+Revision: 320
+Author: ykx5915
+Date: Saturday, August 13, 2022 7:27:16 PM
+Message:
+Text render working
+----
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/renderer.cpp
+Modified : /students/peter.an/gamename/source/gamename/renderer.h
+Modified : /students/peter.an/gamename/source/gamename/sceneanimatedsprite.cpp
+Modified : /students/peter.an/gamename/source/gamename/sceneanimatedsprite.h
+Modified : /students/peter.an/gamename/source/gamename/scenesplashaut.h
+Modified : /students/peter.an/gamename/source/gamename/scenesplashscreen.cpp
+Modified : /students/peter.an/gamename/source/gamename/texture.cpp
+Modified : /students/peter.an/gamename/source/gamename/texture.h
+Modified : /students/peter.an/gamename/source/gamename/texturemanager.cpp
+Modified : /students/peter.an/gamename/source/gamename/texturemanager.h
+
+Revision: 309
+Author: ykx5915
+Date: Thursday, August 11, 2022 6:03:19 PM
+Message:
+Animation sprite attempt
+----
+Added : /students/peter.an/gamename/source/gamename/animatedsprite.cpp
+Added : /students/peter.an/gamename/source/gamename/animatedsprite.h
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+Modified : /students/peter.an/gamename/source/gamename/main.cpp
+Modified : /students/peter.an/gamename/source/gamename/renderer.cpp
+Modified : /students/peter.an/gamename/source/gamename/renderer.h
+Added : /students/peter.an/gamename/source/gamename/sceneanimatedsprite.cpp
+Added : /students/peter.an/gamename/source/gamename/sceneanimatedsprite.h
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballgame.cpp
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballgame.h
+
+Revision: 298
+Author: ykx5915
+Date: Thursday, August 11, 2022 4:17:23 PM
+Message:
+Ball game collision fix
+----
+Modified : /students/peter.an/gamename/source/gamename/ball.cpp
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballgame.cpp
+
+Revision: 297
+Author: ykx5915
+Date: Thursday, August 11, 2022 4:10:20 PM
+Message:
+Added user file
+----
+Added : /students/peter.an/gamename/source/gamename/gamename.vcxproj.user
+
+Revision: 288
+Author: ykx5915
+Date: Thursday, August 11, 2022 2:38:57 PM
+Message:
+Ball Game Complete
+----
+Modified : /students/peter.an/gamename/source/gamename/ball.cpp
+Modified : /students/peter.an/gamename/source/gamename/ball.h
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballgame.cpp
+
+Revision: 270
+Author: ykx5915
+Date: Wednesday, August 10, 2022 8:13:09 PM
+Message:
+Completing Game
+----
+Modified : /students/peter.an/gamename/source/gamename/ball.cpp
+Modified : /students/peter.an/gamename/source/gamename/ball.h
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+Added : /students/peter.an/gamename/source/gamename/scenebouncingballgame.cpp
+Added : /students/peter.an/gamename/source/gamename/scenebouncingballgame.h
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballs.h
+
+Revision: 269
+Author: ykx5915
+Date: Wednesday, August 10, 2022 6:14:07 PM
+Message:
+Scene management working
+----
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballs.cpp
+Added : /students/peter.an/gamename/source/gamename/scenesplashaut.h
+Added : /students/peter.an/gamename/source/gamename/scenesplashscreen.cpp
+
+Revision: 263
+Author: ykx5915
+Date: Wednesday, August 10, 2022 3:57:23 PM
+Message:
+Inputsystem added
+
+----
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/game.h
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+Added : /students/peter.an/gamename/source/gamename/inputsystem.cpp
+Added : /students/peter.an/gamename/source/gamename/inputsystem.h
+Modified : /students/peter.an/gamename/source/gamename/renderer.cpp
+Modified : /students/peter.an/gamename/source/gamename/scene.h
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballs.cpp
+Modified : /students/peter.an/gamename/source/gamename/scenebouncingballs.h
+Modified : /students/peter.an/gamename/source/gamename/scenecheckerboards.cpp
+Modified : /students/peter.an/gamename/source/gamename/scenecheckerboards.h
+Added : /students/peter.an/gamename/source/gamename/xboxcontroller.cpp
+Added : /students/peter.an/gamename/source/gamename/xboxcontroller.h
+
+Revision: 251
+Author: ykx5915
+Date: Wednesday, August 10, 2022 3:26:44 PM
+Message:
+remove user file
+
+----
+Deleted : /students/peter.an/gamename/source/gamename/gamename.vcxproj.user
+
+Revision: 250
+Author: ykx5915
+Date: Wednesday, August 10, 2022 3:26:12 PM
+Message:
+
+----
+Deleted : /students/peter.an/gamename/assets/aut-logo-block.png
+Deleted : /students/peter.an/gamename/assets/ball.png
+Deleted : /students/peter.an/gamename/assets/board8x1.png
+Deleted : /students/peter.an/gamename/assets/board8x2.png
+Deleted : /students/peter.an/gamename/assets/board8x8.png
+
+Revision: 249
+Author: ykx5915
+Date: Wednesday, August 10, 2022 3:25:45 PM
+Message:
+Imgui working
+----
+Deleted : /students/peter.an/gamename/game/aut-logo-block.png
+Deleted : /students/peter.an/gamename/game/ball.png
+Deleted : /students/peter.an/gamename/game/board8x1.png
+Deleted : /students/peter.an/gamename/game/board8x2.png
+Deleted : /students/peter.an/gamename/game/board8x8.png
+Added : /students/peter.an/gamename/game/sprites
+Added : /students/peter.an/gamename/game/sprites/aut-logo-block.png
+Added : /students/peter.an/gamename/game/sprites/ball.png
+Added : /students/peter.an/gamename/game/sprites/board8x1.png
+Added : /students/peter.an/gamename/game/sprites/board8x2.png
+Added : /students/peter.an/gamename/game/sprites/board8x8.png
+Added : /students/peter.an/gamename/source/gamename/ball.cpp
+Added : /students/peter.an/gamename/source/gamename/ball.h
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/game.h
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+Added : /students/peter.an/gamename/source/gamename/imgui
+Added : /students/peter.an/gamename/source/gamename/imgui/imconfig.h
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui.cpp
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui.h
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_demo.cpp
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_draw.cpp
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_impl_opengl3.cpp
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_impl_opengl3.h
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_impl_opengl3_loader.h
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_impl_sdl.cpp
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_impl_sdl.h
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_internal.h
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_tables.cpp
+Added : /students/peter.an/gamename/source/gamename/imgui/imgui_widgets.cpp
+Added : /students/peter.an/gamename/source/gamename/imgui/imstb_rectpack.h
+Added : /students/peter.an/gamename/source/gamename/imgui/imstb_textedit.h
+Added : /students/peter.an/gamename/source/gamename/imgui/imstb_truetype.h
+Added : /students/peter.an/gamename/source/gamename/inlinehelper.h
+Modified : /students/peter.an/gamename/source/gamename/renderer.cpp
+Modified : /students/peter.an/gamename/source/gamename/scene.h
+Added : /students/peter.an/gamename/source/gamename/scenebouncingballs.cpp
+Added : /students/peter.an/gamename/source/gamename/scenebouncingballs.h
+Modified : /students/peter.an/gamename/source/gamename/scenecheckerboards.cpp
+Modified : /students/peter.an/gamename/source/gamename/scenecheckerboards.h
+Added : /students/peter.an/gamename/source/gamename/vector2.cpp
+Added : /students/peter.an/gamename/source/gamename/vector2.h
+
+Revision: 238
+Author: ykx5915
+Date: Wednesday, August 10, 2022 1:52:19 PM
+Message:
+Added filters
+----
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj
+Modified : /students/peter.an/gamename/source/gamename/gamename.vcxproj.filters
+
+Revision: 237
+Author: ykx5915
+Date: Wednesday, August 10, 2022 1:51:43 PM
+Message:
+Scene adding attempt 
+----
+Added : /students/peter.an/gamename/source/gamename/scene.cpp
+Added : /students/peter.an/gamename/source/gamename/scene.h
+Added : /students/peter.an/gamename/source/gamename/scenecheckerboards.cpp
+Added : /students/peter.an/gamename/source/gamename/scenecheckerboards.h
+
+Revision: 219
+Author: ykx5915
+Date: Tuesday, August 9, 2022 5:58:05 PM
+Message:
+Finished Exercise 5x02
+----
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/game.h
+Modified : /students/peter.an/gamename/source/gamename/main.cpp
+
+Revision: 218
+Author: ykx5915
+Date: Tuesday, August 9, 2022 5:25:06 PM
+Message:
+Exercise 5x01 Complete
+----
+Added : /students/peter.an/gamename/game/aut-logo-block.png
+Added : /students/peter.an/gamename/game/ball.png
+Added : /students/peter.an/gamename/game/board8x1.png
+Added : /students/peter.an/gamename/game/board8x2.png
+Added : /students/peter.an/gamename/game/board8x8.png
+Modified : /students/peter.an/gamename/source/gamename/game.cpp
+Modified : /students/peter.an/gamename/source/gamename/game.h
+
+Revision: 177
+Author: ykx5915
+Date: Thursday, August 4, 2022 5:57:39 PM
+Message:
+Added SDL2 Project
+----
+Added : /students/peter.an/gamename (Copy from path: /shared/GP-Shell/gamename, Revision, 175)
+Added : /students/peter.an/gamename/assets/aut-logo-block.png (Copy from path: /shared/assets/aut-logo-block.png, Revision, 175)
+Added : /students/peter.an/gamename/assets/ball.png (Copy from path: /shared/assets/ball.png, Revision, 175)
+Added : /students/peter.an/gamename/assets/board8x1.png (Copy from path: /shared/assets/board8x1.png, Revision, 175)
+Added : /students/peter.an/gamename/assets/board8x2.png (Copy from path: /shared/assets/board8x2.png, Revision, 175)
+Added : /students/peter.an/gamename/assets/board8x8.png (Copy from path: /shared/assets/board8x8.png, Revision, 175)
+
+Revision: 148
+Author: shooper
+Date: Wednesday, August 3, 2022 1:20:18 PM
+Message:
+GP-Shell example starting framework solution, project, source and headers
+----
+Added : /shared/GP-Shell
+Added : /shared/GP-Shell/gamename
+Added : /shared/GP-Shell/gamename/assets
+Added : /shared/GP-Shell/gamename/assets/what goes in here.txt
+Added : /shared/GP-Shell/gamename/docs
+Added : /shared/GP-Shell/gamename/docs/what goes in here.txt
+Added : /shared/GP-Shell/gamename/game
+Added : /shared/GP-Shell/gamename/game/SDL2.dll
+Added : /shared/GP-Shell/gamename/game/SDL2_image.dll
+Added : /shared/GP-Shell/gamename/game/glew32.dll
+Added : /shared/GP-Shell/gamename/game/shaders
+Added : /shared/GP-Shell/gamename/game/shaders/sprite.frag
+Added : /shared/GP-Shell/gamename/game/shaders/sprite.vert
+Added : /shared/GP-Shell/gamename/lib
+Added : /shared/GP-Shell/gamename/lib/what goes in here.txt
+Added : /shared/GP-Shell/gamename/source
+Added : /shared/GP-Shell/gamename/source/gamename
+Added : /shared/GP-Shell/gamename/source/gamename/game.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/game.h
+Added : /shared/GP-Shell/gamename/source/gamename/gamename.vcxproj
+Added : /shared/GP-Shell/gamename/source/gamename/gamename.vcxproj.filters
+Added : /shared/GP-Shell/gamename/source/gamename/gamename.vcxproj.user
+Added : /shared/GP-Shell/gamename/source/gamename/logmanager.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/logmanager.h
+Added : /shared/GP-Shell/gamename/source/gamename/main.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/matrix4.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/matrix4.h
+Added : /shared/GP-Shell/gamename/source/gamename/renderer.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/renderer.h
+Added : /shared/GP-Shell/gamename/source/gamename/shader.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/shader.h
+Added : /shared/GP-Shell/gamename/source/gamename/sprite.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/sprite.h
+Added : /shared/GP-Shell/gamename/source/gamename/texture.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/texture.h
+Added : /shared/GP-Shell/gamename/source/gamename/texturemanager.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/texturemanager.h
+Added : /shared/GP-Shell/gamename/source/gamename/vertexarray.cpp
+Added : /shared/GP-Shell/gamename/source/gamename/vertexarray.h
+Added : /shared/GP-Shell/gamename/source/gamename.sln
+Added : /shared/GP-Shell/gamename/temp
+Added : /shared/GP-Shell/gamename/temp/what goes in here.txt
+Added : /shared/GP-Shell/gamename/test
+Added : /shared/GP-Shell/gamename/test/what goes in here.txt
+
